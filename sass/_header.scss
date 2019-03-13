@@ -1,0 +1,144 @@
+.header{
+    background: #464646 url(../img/header/bgc.png) no-repeat;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+    &::before{
+        content: "";
+        background-color: rgba(70, 70, 70, .6);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .title{
+        font-size: 46px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+.advantagesBox{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.advantagesItem{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    flex-basis: 300px;
+    &__img{
+        width: 60px;
+        height: auto;
+        margin-right: 15px;
+    }
+}
+
+.ringOrder{
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;    
+    position: relative;
+    &::before{
+        content: "";
+        border-top: 1px solid #fff;
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+    }
+    &::after{
+        content: "";
+        border-top: 1px solid #fff;
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &__title{
+        transform: translateY(-12px);
+        font-size: 21px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;       
+    }
+    
+    .forBorder{        
+        height: 47px;
+        display: flex;
+        justify-content: center;        
+        position: relative;
+        &::before{
+            content: "";
+            border-bottom: 1px solid #fff;
+            width: 180px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+        }
+        &::after{
+            content: "";
+            border-bottom: 1px solid #fff;
+            width: 180px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    .btn_ringOrder{
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        transform: translateY(15px);
+        width: 340px;        
+    }    
+}
+
+.InputBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.inputBox{
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-basis: 320px;
+
+    &__icon{
+        height: 20px;
+        width: auto;       
+    }
+    &__input{
+        border: none;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,75 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+ }
+  
+ a:visited {
+    color: rgb(70, 70, 70);
+ }
+
+.container{
+    max-width: 1220px;
+}
+
+
+.LogoBlock{
+    display: flex;
+    align-items: center;
+    &__logo{
+        height: 60px;
+        width: auto;
+    }
+    &__text{
+        margin-left: 20px;
+        .companyTittle{
+            font-size: 21px;
+            color: rgb(70, 70, 70);
+        }
+        .companyName{
+            font-size: 21px;
+            text-transform: uppercase;
+            color: #7ad66c;
+            font-weight: bold;
+        }
+    }
+}
+
+.contactsBlock{
+    display: flex;
+    color: rgb(70, 70, 70);
+    &Text{        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__text{
+            font-size: 12px;
+            margin-right: 30px;            
+        }
+        &__phone{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+@import 'colors.scss';
+@import 'reset.scss';
+@import 'menu.scss';
+@import 'interface.scss';
+@import 'header.scss';
+
+
+@import 'media1366.scss';
+@import 'media768.scss';
+@import 'media576.scss';
+@import 'media320.scss';
+
+

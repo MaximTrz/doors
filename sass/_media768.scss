@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    .invisibleMD{
+        display: none;
+    }
+
+    .LogoBlock{
+        display: flex;
+        align-items: center;
+        &__logo{
+            height: 60px;
+            width: auto;
+        }
+        &__text{
+            margin-left: 16px;
+            .companyTittle{
+                font-size: 18px;
+                color: rgb(70, 70, 70);
+            }
+            .companyName{
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #7ad66c;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
