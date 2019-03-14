@@ -1,0 +1,35 @@
+.control{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    &__title{
+        font-size: 32px;
+        color: rgb(70, 70, 70);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+}
+
+.controlBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    &__img{
+        max-width: 556px;
+    }
+    &__text{
+        flex-basis: 560px;
+        &_title{
+            font-size: 21px;
+            color: rgb(122, 214, 108);
+        }
+        &_content{
+            font-size: 15px;            
+            color: rgb(70, 70, 70);
+        }
+    }
+    &_inverse{
+        flex-direction: row-reverse;
+    }
+}

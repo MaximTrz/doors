@@ -397,6 +397,58 @@ button:focus {
   text-align: left;
 }
 
+.control {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.control__title {
+  font-size: 32px;
+  color: #464646;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.controlBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 35px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.controlBox__img {
+  max-width: 556px;
+}
+
+.controlBox__text {
+  -ms-flex-preferred-size: 560px;
+  flex-basis: 560px;
+}
+
+.controlBox__text_title {
+  font-size: 21px;
+  color: #7ad66c;
+}
+
+.controlBox__text_content {
+  font-size: 15px;
+  color: #464646;
+}
+
+.controlBox_inverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 768px) {
   .invisibleMD {
     display: none;
