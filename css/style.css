@@ -514,32 +514,20 @@ button:focus {
 
   /****************************************************************/
 
+  /******************advantages***********************************/
+
   .advantagesBlock {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .advantagesBlock__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-bottom: 20px;
   }
 
-  .advantagesBlock__item .advantagesIcon {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    width: 40px;
-    margin-right: 20px;
-  }
+  /****************************************************************/
 }
 
 @media screen and (max-width: 320px) {

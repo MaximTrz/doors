@@ -71,22 +71,14 @@
 
 /****************************************************************/
 
-
+/******************advantages***********************************/
 .advantagesBlock{
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    &__item{
-        display: flex;
+    &__item{    
         flex-basis: 100%;
-        margin-bottom: 20px;        
-        .advantagesIcon{
-            align-self: flex-start;
-            width: 40px;
-            margin-right: 20px;
-        }
+        margin-bottom: 20px;      
     }
 }
-
+/****************************************************************/
 
 }
