@@ -11,4 +11,82 @@
         padding-bottom: 16px;
     }
 
+/*****************************Header***************************/
+.advantagesBox{
+    display: block;
+}
+
+.advantagesItem{
+    margin-bottom: 20px;
+}
+
+.ringOrder{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 1px solid #fff;
+    &::before{
+        display: none;
+    }
+    &::after{    
+        display: none;        
+    }
+    
+    &__title{
+        transform: none;
+        font-size: 21px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;       
+    }
+    
+    .forBorder{
+        height: 100%;               
+        &::before{
+            display: none;
+        }
+        &::after{
+            display: none;
+        }
+    }
+    
+    .btn_ringOrder{
+        font-size: 18px;
+        display: block;
+        max-width: 320px;        
+        padding-bottom: 20px;
+        padding-top: 20px;
+        transform: none;              
+    } 
+}
+
+.InputBlock{
+    flex-wrap: wrap;
+}
+
+.inputBox{
+    margin-bottom: 20px;
+}
+
+/****************************************************************/
+
+
+.advantagesBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__item{
+        display: flex;
+        flex-basis: 100%;
+        margin-bottom: 20px;        
+        .advantagesIcon{
+            align-self: flex-start;
+            width: 40px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
 }

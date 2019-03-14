@@ -1,0 +1,43 @@
+.advantages{
+    background-color: #f5f6f7;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    &__title{
+        font-size: 32px;
+        color: rgb(70, 70, 70);
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }    
+}
+
+.advantagesBlock{
+    display: flex;
+    justify-content: space-between;
+    &__item{
+        display: flex;
+        flex-basis: 350px;        
+        .advantagesIcon{
+            align-self: flex-start;
+            width: 40px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.advantagesTextBox{
+    &__title{
+        font-size: 20px;        
+        color: rgb(122, 214, 108);
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    &__text{
+        font-size: 16px;
+        color: rgb(70, 70, 70);
+        text-align: left;
+    }
+}
+
+
+
