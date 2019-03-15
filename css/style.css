@@ -449,6 +449,71 @@ button:focus {
   flex-direction: row-reverse;
 }
 
+.practice {
+  background-color: #f5f6f7;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.practice__title {
+  text-align: center;
+  font-size: 32px;
+  color: #464646;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.practiceBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.practiceItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 360px;
+  flex-basis: 360px;
+}
+
+.practiceItem__icon {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-right: 5px;
+  max-width: 40px;
+}
+
+.practiceItem__text_title {
+  font-size: 16px;
+  color: #7ad66c;
+  margin-bottom: 12px;
+}
+
+.practiceItem__text_content {
+  font-size: 14px;
+  color: #464646;
+  text-align: justify;
+}
+
+.practiceItem__text ul {
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.practiceItem__text ul li {
+  color: #7ad66c;
+  margin-bottom: 10px;
+}
+
+.practiceItem__text ul li span {
+  color: #464646;
+}
+
 @media screen and (max-width: 768px) {
   .invisibleMD {
     display: none;
@@ -483,6 +548,45 @@ button:focus {
     color: #7ad66c;
     font-weight: bold;
   }
+
+  /*******************************Control**************************/
+
+  .controlBox {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .controlBox__img {
+    margin-bottom: 10px;
+  }
+
+  /*************************************************************/
+
+  /*******************************Practice**************************/
+
+  .practiceBox {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .practiceItem {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .practiceItem__text_title {
+    margin-bottom: 5px;
+  }
+
+  /*************************************************************/
 }
 
 @media screen and (max-width: 576px) {

@@ -25,4 +25,37 @@
         }
     }
 
+
+/*******************************Control**************************/
+
+
+.controlBox{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: center;
+    &__img{
+        margin-bottom: 10px;
+    }
+}
+
+
+/*************************************************************/
+
+/*******************************Practice**************************/
+.practiceBox{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.practiceItem{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    &__text{        
+        &_title{
+            margin-bottom: 5px;
+        }
+    }
+}
+/*************************************************************/
+
 }
