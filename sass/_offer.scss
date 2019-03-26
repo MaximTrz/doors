@@ -1,0 +1,19 @@
+.offer{
+    background: #a2a2a2 url(../img/offer/bgc.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    &::before{
+        content: "";
+        background-color: rgba(70, 70, 70, .5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;        
+    }
+}

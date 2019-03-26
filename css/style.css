@@ -188,83 +188,6 @@ button:focus {
   margin-right: 15px;
 }
 
-.ringOrder {
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-  position: relative;
-}
-
-.ringOrder::before {
-  content: "";
-  border-top: 1px solid #fff;
-  width: 80px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-}
-
-.ringOrder::after {
-  content: "";
-  border-top: 1px solid #fff;
-  width: 80px;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.ringOrder__title {
-  -webkit-transform: translateY(-12px);
-  transform: translateY(-12px);
-  font-size: 21px;
-  font-family: "Roboto";
-  color: white;
-  text-transform: uppercase;
-}
-
-.ringOrder .forBorder {
-  height: 47px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-}
-
-.ringOrder .forBorder::before {
-  content: "";
-  border-bottom: 1px solid #fff;
-  width: 180px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-}
-
-.ringOrder .forBorder::after {
-  content: "";
-  border-bottom: 1px solid #fff;
-  width: 180px;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.ringOrder .btn_ringOrder {
-  font-size: 18px;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  -webkit-transform: translateY(15px);
-  transform: translateY(15px);
-  width: 340px;
-}
-
 .InputBlock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,7 +425,7 @@ button:focus {
 .practiceItem__text ul {
   text-align: left;
   margin-top: 5px;
-  padding-left: 15px;
+  padding-left: 18px;
 }
 
 .practiceItem__text ul li {
@@ -512,6 +435,169 @@ button:focus {
 
 .practiceItem__text ul li span {
   color: #464646;
+}
+
+.other {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.otherBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.otherItem {
+  font-size: 13px;
+  color: #464646;
+  -ms-flex-preferred-size: 260px;
+  flex-basis: 260px;
+}
+
+.otherItem_title {
+  color: #7ad66c;
+  font-size: 30px;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.otherItem span {
+  display: block;
+  font-size: 16px;
+  color: #464646;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.offer {
+  background: #a2a2a2 url("../img/offer/bgc.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.offer::before {
+  content: "";
+  background-color: rgba(70, 70, 70, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ringOrder {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  position: relative;
+}
+
+.ringOrder::before {
+  content: "";
+  border-top: 1px solid #fff;
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.ringOrder::after {
+  content: "";
+  border-top: 1px solid #fff;
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ringOrder__title {
+  -webkit-transform: translateY(-12px);
+  transform: translateY(-12px);
+  font-size: 21px;
+  font-family: "Roboto";
+  color: white;
+  text-transform: uppercase;
+}
+
+.ringOrder .forBorder {
+  height: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ringOrder .forBorder::before {
+  content: "";
+  border-bottom: 1px solid #fff;
+  width: 180px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.ringOrder .forBorder::after {
+  content: "";
+  border-bottom: 1px solid #fff;
+  width: 180px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ringOrder .btn_ringOrder {
+  font-size: 18px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
+  width: 340px;
+}
+
+.ringOrder_offer {
+  z-index: 5;
+  border: none;
+}
+
+.ringOrder_offer::before {
+  display: none;
+}
+
+.ringOrder_offer::after {
+  display: none;
+}
+
+.ringOrder_offer .forBorder {
+  border: none;
+}
+
+.ringOrder_offer .forBorder::before {
+  display: none;
+}
+
+.ringOrder_offer .forBorder::after {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -584,6 +670,24 @@ button:focus {
 
   .practiceItem__text_title {
     margin-bottom: 5px;
+  }
+
+  /*************************************************************/
+
+  /*******************************Other**************************/
+
+  .otherBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .otherItem {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
   }
 
   /*************************************************************/

@@ -51,70 +51,7 @@
     }
 }
 
-.ringOrder{
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;    
-    position: relative;
-    &::before{
-        content: "";
-        border-top: 1px solid #fff;
-        width: 80px;
-        height: 100%;
-        position: absolute;
-        left: 0;
-    }
-    &::after{
-        content: "";
-        border-top: 1px solid #fff;
-        width: 80px;
-        height: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    &__title{
-        transform: translateY(-12px);
-        font-size: 21px;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255);
-        text-transform: uppercase;       
-    }
-    
-    .forBorder{        
-        height: 47px;
-        display: flex;
-        justify-content: center;        
-        position: relative;
-        &::before{
-            content: "";
-            border-bottom: 1px solid #fff;
-            width: 180px;
-            height: 100%;
-            position: absolute;
-            left: 0;
-        }
-        &::after{
-            content: "";
-            border-bottom: 1px solid #fff;
-            width: 180px;
-            height: 100%;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-    }
-    .btn_ringOrder{
-        font-size: 18px;
-        padding-bottom: 40px;
-        padding-top: 20px;
-        transform: translateY(15px);
-        width: 340px;        
-    }    
-}
+
 
 .InputBlock{
     display: flex;

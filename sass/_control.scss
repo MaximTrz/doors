@@ -3,7 +3,7 @@
     padding-bottom: 70px;
     &__title{
         font-size: 32px;
-        color: rgb(70, 70, 70);
+        color: $mainText;
         font-weight: bold;
         text-align: center;
         margin-bottom: 35px;
@@ -22,11 +22,11 @@
         flex-basis: 560px;
         &_title{
             font-size: 21px;
-            color: rgb(122, 214, 108);
+            color: $subTitles;
         }
         &_content{
             font-size: 15px;            
-            color: rgb(70, 70, 70);
+            color: $mainText;
         }
     }
     &_inverse{

@@ -3,7 +3,7 @@
     padding-bottom: 80px;
     &__title{
         font-size: 32px;
-        color: rgb(70, 70, 70);
+        color: $mainText;
         font-weight: bold;
         text-align: center;
         margin-bottom: 40px;
@@ -37,6 +37,5 @@
 }
 
 .btn_produsct{
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
