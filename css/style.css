@@ -600,6 +600,74 @@ button:focus {
   display: none;
 }
 
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.contacts__title {
+  font-size: 32px;
+  font-family: "Roboto";
+  color: #464646;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contactsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contactsBox__mapBox {
+  -ms-flex-preferred-size: 655px;
+  flex-basis: 655px;
+  margin-right: 50px;
+}
+
+.contactsList {
+  -ms-flex-preferred-size: 450px;
+  flex-basis: 450px;
+}
+
+.contactsListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.contactsListItem_workTime {
+  margin-left: 30px;
+}
+
+.contactsListItem__icon {
+  width: 20px;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  margin-right: 10px;
+}
+
+.contactsListItem__text {
+  font-size: 15px;
+}
+
+.contactsListItem__text span {
+  font-size: 18px;
+  color: #464646;
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .invisibleMD {
     display: none;
