@@ -668,6 +668,37 @@ button:focus {
   display: block;
 }
 
+.footer {
+  padding-top: 40px;
+  padding-bottom: 45px;
+  background-color: #f2f2f2;
+}
+
+.footerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footerTextBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-preferred-size: 700px;
+  flex-basis: 700px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 768px) {
   .invisibleMD {
     display: none;
@@ -756,6 +787,48 @@ button:focus {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-bottom: 20px;
+  }
+
+  /*************************************************************/
+
+  /*******************************Contacts**************************/
+
+  .contactsBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .contactsBox__mapBox {
+    -ms-flex-preferred-size: 655px;
+    flex-basis: 655px;
+    margin-right: 20px;
+  }
+
+  .contactsListItem {
+    margin-bottom: 10px;
+  }
+
+  .contactsListItem_workTime {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .contactsListItem__text {
+    font-size: 12px;
+  }
+
+  .contactsListItem__text span {
+    font-size: 16px;
+    color: #464646;
+    display: block;
+    margin-bottom: 5px;
   }
 
   /*************************************************************/
@@ -856,6 +929,71 @@ button:focus {
   }
 
   /****************************************************************/
+
+  /*******************************Contacts**************************/
+
+  .contactsBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .contactsBox__mapBox {
+    -ms-flex-preferred-size: 655px;
+    flex-basis: 655px;
+    margin-bottom: 20px;
+  }
+
+  .contactsList {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
+  /***************************************************************/
+
+  .footerBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footerTextBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: 300px;
+    flex-basis: 300px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .footerTextBox__text {
+    margin-bottom: 15px;
+  }
+
+  .LogoBlock_footer {
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
 }
 
 @media screen and (max-width: 320px) {

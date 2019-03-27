@@ -81,4 +81,48 @@
 }
 /****************************************************************/
 
+
+
+/*******************************Contacts**************************/
+
+.contactsBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__mapBox{
+        flex-basis: 655px; 
+        margin-bottom: 20px;             
+    }
+}
+
+.contactsList{
+    flex-basis: 100%;
+}
+
+/***************************************************************/
+
+.footerBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerTextBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    justify-content: flex-start; 
+    &__text{
+        margin-bottom: 15px;              
+    }
+}
+
+.LogoBlock_footer{
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
 }
