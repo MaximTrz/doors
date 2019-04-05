@@ -39,3 +39,25 @@
 .btn_produsct{
     font-size: 14px;    
 }
+
+.prevArrow{
+    height: 65px;
+    position: absolute;
+    z-index: 100;
+    width: 20px;
+    background: url(../img/prevArrow.png) center no-repeat;
+    border: none;
+    top: 30%;
+    left: 0px;   
+}
+
+.nextArrow{
+    position: absolute;
+    height: 65px;
+    width: 20px;
+    background: url(../img/nextArrow.png) center no-repeat;
+    border: none;
+    z-index: 100;
+    right: 0;
+    top: 30%;
+}

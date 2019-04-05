@@ -592,30 +592,24 @@
 </script>
 
 <script>
-
-$('.productsSlider').slick({
+window.addEventListener('DOMContentLoaded', ()=>{
+	$('.productsSlider').slick({
 	  infinite: true,
 	  speed: 300,
 	  slidesToShow: 4,
 	  slidesToScroll: 4,
 	  dots: false,
 	  arrows: false,
+	  autoplay: true,
 	  responsive: [
-		  {
-		    breakpoint: 1025,
-		    settings: {
-		      slidesToShow: 3,
-		      slidesToScroll: 1,
-		      infinite: true,
-		      dots: false
-		    }
-		  },
-
 		  {
 		    breakpoint: 769,
 		    settings: {
 		      slidesToShow: 2,
 		      slidesToScroll: 1,
+			  arrows: true,
+			  prevArrow: '<button class="prevArrow"></button>',
+			  nextArrow: '<button class="nextArrow"></button>'
 		    }
 		  },
 	    
@@ -624,24 +618,24 @@ $('.productsSlider').slick({
 	      settings: {
 	        slidesToShow: 1,
 	        slidesToScroll: 1,
-	        arrows: false,
-	        dots: false	      
+			arrows: true,
+			prevArrow: '<button class="prevArrow"></button>',
+			nextArrow: '<button class="nextArrow"></button>'   
 	      }
 	    },
-
-	    {
+		{
 	      breakpoint: 321,
 	      settings: {
 	        slidesToShow: 1,
 	        slidesToScroll: 1,
-	        arrows: false,
-	        dots: false		      
+			arrows: false   
 	      }
 	    }
 
 	  ]
 	});
-
+}
+)
 </script>
 
 </body>

@@ -104,4 +104,14 @@
 
 /*************************************************************/
 
+
+
+.footerTextBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    justify-content: flex-end; 
+}
+
+
 }
