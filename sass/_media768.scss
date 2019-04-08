@@ -110,7 +110,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-basis: 500px;
-    justify-content: flex-end; 
+    justify-content: space-between; 
+    &__text{
+        flex-basis: 100%;
+        text-align: right;      
+    }
 }
 
 
