@@ -15,4 +15,7 @@
     flex-wrap: wrap;
     flex-basis: 700px;
     justify-content: space-between; 
+    &__text{
+        color: rgb(70, 70, 70);
+    }
 }

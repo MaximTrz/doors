@@ -728,6 +728,10 @@ button:focus {
   justify-content: space-between;
 }
 
+.footerTextBox__text {
+  color: #464646;
+}
+
 @media screen and (max-width: 768px) {
   .invisibleMD {
     display: none;
